@@ -10,5 +10,9 @@ java -Xss8192k -cp $PREFIXTOCOGNI/CryptoAnalysis/CryptoAnalysis/build/CryptoAnal
 
   * where:
      *  $PREFIXTOCOGNI == path to [latest](https://github.com/CROSSINGTUD/CryptoAnalysis/releases/tag/2.7.1) CogniCrypt_SAST
-     * $SOOTCP == a full path to a jce.jar and a rt.jar (example: /Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/jce.jar:/Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/rt.jar)
+     * $SOOTCP == a full path to:
+        1) the dependency jar (just in case, although this makes no difference)
+	2) a jce.jar
+	3) a rt.jar
+     (example: /Users/knewbury/Desktop/jarTest/testDep/target/depTest-1.0-SNAPSHOT-jar-with-dependencies.jar:/Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/jce.jar:/Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/rt.jar)
      * $PATHTOJARTEST is the prefix of where the example project has been cloned to
