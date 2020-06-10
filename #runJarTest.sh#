@@ -1,3 +1,0 @@
-
-
-java -Xss8192k -cp /Users/knewbury/Desktop/CryptoAnalysis/CryptoAnalysis/build/CryptoAnalysis-2.7.1-SNAPSHOT-jar-with-dependencies.jar crypto.HeadlessCryptoScanner  --sootCp=/Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/jce.jar:/Users/knewbury/Desktop/jdks/jdk1.8.0_201/jre/lib/rt.jar --rulesDir=/Users/knewbury/Desktop/CryptoAnalysis/CryptoAnalysis/src/main/resources/JavaCryptographicArchitecture/ --applicationCp=/Users/knewbury/Desktop/jarTest/mainJar/target/jarTest-1.0-SNAPSHOT-jar-with-dependencies.jar 
